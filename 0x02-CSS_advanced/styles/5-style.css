@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 /* For the body */
@@ -7,7 +8,6 @@ body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    font-size: 62.5%;
 }
 
 /* For all anchor elements */
