@@ -127,7 +127,7 @@ a:active {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 calc(3 * 1em) 0;
+    --nav-item-margin: 0 0 calc(3 * var(--section-header-padding)) 0;
     --nav-item-link-hover: var(--color-primary);
 }
 
@@ -166,7 +166,7 @@ h6 {
 
 .nav .nav-link {
     display: block;
-    padding: 0;
+    padding: 0 var(--section-header-padding) 0 var(--section-header-padding);
 }
 
 .nav .nav-link:hover {
