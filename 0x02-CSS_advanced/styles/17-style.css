@@ -69,10 +69,7 @@ a:active {
 }
 
 .section-body {
-    padding-left: var(--section-body-padding);
-    padding-top: var(--section-body-padding);
-    padding-bottom: var(--section-body-padding);
-    padding-right: var(--section-body-padding);
+    padding: var(--section-body-padding);
 }
 
 .section-footer {
