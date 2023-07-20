@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* For the body */
+body {
+    color: var(--text-color);
+}
+
+/* For all anchor elements */
+a {
+    color: #161616;
+}
+
+/*  All elements with the class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* Elements with the class card-category*/
+.card-category {
+    color: var(--color-primary);
+}
+
+/* All elements with the class section-tagline */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
