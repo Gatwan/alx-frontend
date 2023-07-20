@@ -191,7 +191,7 @@ ul.row {
 
 [class^="col-"] {
     float: left;
-    padding: calc(var(--section-padding) / 2);
+    padding: calc(var(--footer-padding) / 2);
 }
 
 .footer-copyright {
