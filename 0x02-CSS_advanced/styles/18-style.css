@@ -151,9 +151,9 @@ h6 {
     text-align: center;
 }
 
-/*.nav ul {
+ul.nav {
     list-style: none;
-}*/
+}
 
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
