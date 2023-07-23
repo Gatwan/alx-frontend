@@ -235,10 +235,6 @@ ul.row {
     background-color: var(--button-hover-background);
 }
 
-[data-section-theme="dark"] .button {
-    color: var(--color-white);
-}
-
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
@@ -273,12 +269,10 @@ ul.row {
 }
 
 [data-section-theme="dark"] {
-    color: var(--color-white);
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
     background-color: var(--color-black);
-}
-
-[data-section-theme="dark"] .section-title {
-    color: var(--color-white);
+    --button-color: var(var(--color-white))
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
