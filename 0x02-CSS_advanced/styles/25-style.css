@@ -272,7 +272,7 @@ ul.row {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
-    --button-color: var(var(--color-white))
+    --button-color: var(--color-white);
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
