@@ -235,7 +235,7 @@ ul.row {
     background-color: var(--button-hover-background);
 }
 
-[data-section-theme="dark"] .button {
+.data-section-theme="dark" .button {
     color: var(--button-dark-color);
 }
 
